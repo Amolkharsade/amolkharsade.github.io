@@ -1,0 +1,54 @@
+/*selector
+{
+	property:value;
+	https//:css-trick.com;
+	paleton.com // css color 
+}*/
+*{
+	text-align: right;
+}
+
+body
+{
+	background-image: url(background_img.jpg);
+	background-size: cover;
+}
+h2,p
+{
+	color:red;
+	border:5px;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+	cursor: pointer;
+	display: inline-block;
+}
+p:hover{
+	/*color: rgb(); */
+	color: rgba(255,0,0,1);
+}
+.para
+{
+	color: blue;
+	border:5px dashed green ;
+}
+#div1
+{
+	color: black;
+	background-color: gray;
+
+}
+.boxmodel
+{
+	border:5px solid red;
+	/*top  right  bottom left*/  /* em is equeal to 2 pixel (10px = 5em)*/
+	padding: 5px 5px 5px 5px ;  
+	margin:10px;
+}
+
+footer
+{
+	clear: both;
+}
